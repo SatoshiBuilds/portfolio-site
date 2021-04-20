@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: michaelba.tk
+Token: 8a987dfc75a71b407047a186453dc187c11982869e85143cc8946def6d411ead
