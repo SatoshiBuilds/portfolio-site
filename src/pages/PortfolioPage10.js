@@ -5,10 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Hero from '../components/Hero';
 
 import Portfolio_51 from '../assets/images/Portfolio_51.jpg';
-import Portfolio_6 from '../assets/images/Portfolio_6.jpg';
-import Portfolio_6 from '../assets/images/Portfolio_6.jpg';
 import Portfolio_24 from '../assets/images/Portfolio_24.jpg';
-
 
 import Container from 'react-bootstrap/Container';
 
@@ -34,14 +31,14 @@ class PortfolioPage10 extends React.Component{
                     id: 1,
                     title: 'Portfolio Thesis',
                     subTitle: '6018',
-                    imgSrc: Portfolio_6,
+                    imgSrc: Portfolio_24,
 
                 },
                 {
                     id: 2,
                     title: 'Evverest',
                     subTitle: 'A social network for developers',
-                    imgSrc: Portfolio_6,
+                    imgSrc: Portfolio_24,
 
                 },
                 {

@@ -4,14 +4,11 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import './App.css';
-import Carousel from './components/Carousel';
-
 
 import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
-
 
 //my abomination import here
 import PortfolioPage01 from './pages/PortfolioPage01';
@@ -24,9 +21,6 @@ import PortfolioPage07 from './pages/PortfolioPage07';
 import PortfolioPage08 from './pages/PortfolioPage08';
 import PortfolioPage09 from './pages/PortfolioPage09';
 import PortfolioPage10 from './pages/PortfolioPage10';
-import PortfolioPage11 from './pages/PortfolioPage11';
-
-
 
 
 
@@ -34,15 +28,14 @@ import 'react-awesome-slider/dist/custom-animations/cube-animation.css';
 
 import 'react-awesome-slider/dist/styles.css';
 
-<div>hello</div>
-var myName = 'Michael Batelka'
+const NAME = 'Michael Batelka';
 
 class App extends React.Component{
 
   constructor(props) {
     super(props);
     this.state = {
-      title: {myName},
+      title: NAME,
       headerLinks: [
         { title: 'Home',path: '/' },
         { title: 'About',path: '/about' },
@@ -62,19 +55,18 @@ class App extends React.Component{
       projects01:{
         title: 'Energy Question',
         subTitle: '2020, Ghent, Belgium',
-        text: "When doing my Exchange Semester in Ghent, Belgium, I had the pleasure to work on a topic about Energy Renewables. With a continuous process of how we can survive on this planet with reducing our Output on CO2 and Coal Dependency, this project offers an idea to maximize the value of wind and solar to create a machine that has a self-sustaining multi-functionality. Aiming to be a future proof system, the project is a module system that provides energy to the surrounding areas, as well as giving back spaces and opportunities for citiziens and workers around it. The structures was purely design using mathematically defined borders that are transititoned into a reallife proposal that, though extreme, covers 110% of it's surroundings cities energy usage."
+        text: "When doing my Exchange Semester in Ghent, Belgium, I had the pleasure to work on a topic about Energy Renewables. With a continuous process of how we can survive on this planet with reducing our Output on CO2 and Coal Dependency, this project offers an idea to maximize the value of wind and solar to create a machine that has a self-sustaining multi-functionality. Aiming to be a future proof system, the project is a module system that provides energy to the surrounding areas, as well as giving back spaces and opportunities for citiziens and workers around it. The structures was purely design using mathematically defined borders that are transititoned into a reallife proposal, that though extreme, covers 110% of it's surroundings cities energy usage."
       },
       projects02:{
         title: 'Responsible Object',
         subTitle: '2019, Berlin, Germany',
         text: 'The St. Thomas Church in Berlin, Kreuzberg wanted an exhibition about the wall, as well about the squatting history of its area. We were a large group of ten people that needed to work together on the project in order to maximize our knowledge in the history, bring the best design concepts possible and relate the given material and put them into a presentable form to the church and their visitors. With that in mind, we were focusing on taking as much inspiration from the church itself to translate its language into 3 relatable exhibition modules that interpret the situations in a subjective way, as well as a history time-line, that presents the hard facts about the area and gives the visitors are reason to delve deeper into the existing exhibition. The opening ceremony took place on the comemrate day of the fall of the Berlin wall.'
-      },      
+      },
       projects03:{
         title: 'Conceptual Living',
         subTitle: '2019, Cologne, Germany',
         text: 'The limestone industry of Germany asked for young students to participate in their competition with using their product of lime stones. With that in mind, the task was to create future living scenarios in regards to the challenges that we are facing in around 20 years from now. In my concept, I tried to fuse the options of blockchain and decentralization with architecture, ownership and renting. The result is an AirBNB like living community, that can rent out or add facilities depending on the needs to each user of the project. While further advancing in the topic, I discovered potential with this idea, that could be used on top of todays contracts. It also helped me to understand the Bitcoin ecosystem better and what it does.'
       },
-
       projects04:{
         title: "AEDES Summer School",
         subTitle: "2018, Berlin, Germany",
@@ -83,7 +75,7 @@ class App extends React.Component{
       projects05:{
         title: "Bachelor Thesis",
         subTitle: "2017, Braunschweig, Germany",
-        text : 'In the study town of Brunswick, a school that offers teaching for 430 people needed to be constructed. The building site is in the inner circle of the city, near to the “Gaußpark” and directly next to the “Bosselgraben” a smaller side river of the Oker. The basic premise of my project was to achieve a unity through individualism. In that regard, it is important, that certain aspects are available , like room climate, space and light. Those properties were the most focused on in this example. The fusion of classrooms with the floor ways creates a perfect learning area for the children. In that matter, the floor areas bring a multipurpose function with it, and are used not only for a means of transportation, but as well as a learning space.'
+        text : 'In the study town of Brunswick, a school that offers teaching for 430 people needed to be constructed. The building site is in the inner circle of the city, near to the "Gaußpark" and directly next to the "Bosselgraben" a smaller side river of the Oker. The basic premise of my project was to achieve a unity through individualism. In that regard, it is important, that certain aspects are available , like room climate, space and light. Those properties were the most focused on in this example. The fusion of classrooms with the floor ways creates a perfect learning area for the children. In that matter, the floor areas bring a multipurpose function with it, and are used not only for a means of transportation, but as well as a learning space.'
       },
       projects06:{
         title: "Air Traffic Control Tower",
@@ -95,7 +87,7 @@ class App extends React.Component{
         subTitle: '2017, Humpolec, Czech Republic',
         text : 'The beer brewery invited the firm AI-DESIGN to a competition to design a lookout tower for its brewery in Humpolec, Czech Republic. The tower has been created purely with parametric applications, that made it into its final design, it helped making the design process more streamlined, and even though not too much work has been put into the actual 3D modelling, the time efficient parametric approach with Grasshopper helped. It was important to comply with local historic regulations, thus the old and still in use chimney had to be visible and should stand on its own.'
       },
-        projects08:{
+      projects08:{
         title: 'I\'m Mobility',
         subTitle: '2019-ongoing',
         text: 'While working with a lot of different people in the architectural community, students and workers alike, there was a growing demand in conceptual design as well as visualisation and grasshopper recommendation and training. Thus, the amount of things produced for others grew and a smaller section of this portfolio is dedicated to that purpose. All seen contributions were a mixture of the clients work that has been done already and my input to the final product. While some of these renderings had to be made in a couple of hours, certain stylistic is always showing up again, like the people with the silhouettes and renderings that focus only on a specific moment in that situation.While the work was not necessarily my own architectural vision, the end result did teach me useful lessons about materials, textures, viewing angles and general proposition in visualization. On top of that, I also created art piece, that are scattered throughout this portfolio, that show the combination of parametric art and visualization techniques.'
@@ -108,34 +100,28 @@ class App extends React.Component{
       projects10:{
         title: "Parametric Art",
         subTitle: "2017 - ongoing, worldwide",
-      },
-      projects11:{
-        title: "AEDES Summer School",
-        subTitle: "2018, Berlin, Germany",
       }
 
     }
   }
 
-// maybe <Navbar.Brand classeName = ""  >Michael Batelka </Navbar.Brand> for the link of brand
+// maybe <Navbar.Brand className="">Michael Batelka</Navbar.Brand> for the link of brand
 
   render(){
     return (
       <Router>
         <Container className = "p-2  bg-light" fluid = {true}  >
-         
+
 
           <Navbar className = "border-bottom " bg = "transparent" expand = "lg">
             
-          <Link className="brand-text" to="/">{myName}</Link>
-
+          <Link className="brand-text" to="/">{NAME}</Link>
 
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
                 <Link className="nav-link" to="/">Home</Link>
                 <Link className="nav-link" to="/about">About</Link>
-                <Link className="nav-link" to="/contact">Contact</Link>
                 <Link className="nav-link" to="/contact">Contact</Link>
 
 
@@ -159,9 +145,7 @@ class App extends React.Component{
           <Route path= "/Project09" render={() =>  <PortfolioPage09 title={this.state.projects09.title} subTitle={this.state.projects09.subTitle} text={this.state.projects09.text} />}/>
           <Route path= "/Project10" render={() =>  <PortfolioPage10 title={this.state.projects10.title} subTitle={this.state.projects10.subTitle} text={this.state.projects10.text} />}/>
           
-          
-          
-          
+
 
 
           <Footer />
