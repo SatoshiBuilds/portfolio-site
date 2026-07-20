@@ -1,1 +1,0 @@
-var myName = 'Michael Batelka Test3'
