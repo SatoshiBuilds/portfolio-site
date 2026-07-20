@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio-site/static/css/main.18a16bca.chunk.css",
-    "main.js": "/portfolio-site/static/js/main.65b0080a.chunk.js",
-    "main.js.map": "/portfolio-site/static/js/main.65b0080a.chunk.js.map",
+    "main.css": "/portfolio-site/static/css/main.ff1d77aa.chunk.css",
+    "main.js": "/portfolio-site/static/js/main.790d553b.chunk.js",
+    "main.js.map": "/portfolio-site/static/js/main.790d553b.chunk.js.map",
     "runtime-main.js": "/portfolio-site/static/js/runtime-main.9b26440e.js",
     "runtime-main.js.map": "/portfolio-site/static/js/runtime-main.9b26440e.js.map",
     "static/css/2.4407656c.chunk.css": "/portfolio-site/static/css/2.4407656c.chunk.css",
-    "static/js/2.22f1acfa.chunk.js": "/portfolio-site/static/js/2.22f1acfa.chunk.js",
-    "static/js/2.22f1acfa.chunk.js.map": "/portfolio-site/static/js/2.22f1acfa.chunk.js.map",
+    "static/js/2.c35e89de.chunk.js": "/portfolio-site/static/js/2.c35e89de.chunk.js",
+    "static/js/2.c35e89de.chunk.js.map": "/portfolio-site/static/js/2.c35e89de.chunk.js.map",
     "index.html": "/portfolio-site/index.html",
-    "precache-manifest.7795c06ea97a9e5d29bddc215adf9c7f.js": "/portfolio-site/precache-manifest.7795c06ea97a9e5d29bddc215adf9c7f.js",
+    "precache-manifest.284c917223850fea2590b1a050a5284e.js": "/portfolio-site/precache-manifest.284c917223850fea2590b1a050a5284e.js",
     "service-worker.js": "/portfolio-site/service-worker.js",
     "static/css/2.4407656c.chunk.css.map": "/portfolio-site/static/css/2.4407656c.chunk.css.map",
-    "static/css/main.18a16bca.chunk.css.map": "/portfolio-site/static/css/main.18a16bca.chunk.css.map",
-    "static/js/2.22f1acfa.chunk.js.LICENSE.txt": "/portfolio-site/static/js/2.22f1acfa.chunk.js.LICENSE.txt",
+    "static/css/main.ff1d77aa.chunk.css.map": "/portfolio-site/static/css/main.ff1d77aa.chunk.css.map",
+    "static/js/2.c35e89de.chunk.js.LICENSE.txt": "/portfolio-site/static/js/2.c35e89de.chunk.js.LICENSE.txt",
     "static/media/Aedes.jpg": "/portfolio-site/static/media/Aedes.55baf1b5.jpg",
     "static/media/AirTrafficControl.jpg": "/portfolio-site/static/media/AirTrafficControl.5bc57ea8.jpg",
     "static/media/Bachelor.jpg": "/portfolio-site/static/media/Bachelor.e8a2de66.jpg",
@@ -69,8 +69,8 @@
   "entrypoints": [
     "static/js/runtime-main.9b26440e.js",
     "static/css/2.4407656c.chunk.css",
-    "static/js/2.22f1acfa.chunk.js",
-    "static/css/main.18a16bca.chunk.css",
-    "static/js/main.65b0080a.chunk.js"
+    "static/js/2.c35e89de.chunk.js",
+    "static/css/main.ff1d77aa.chunk.css",
+    "static/js/main.790d553b.chunk.js"
   ]
 }
